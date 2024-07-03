@@ -1,240 +1,231 @@
-
 .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .poppins-regular-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .poppins-extrabold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .poppins-black-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-body{
-    background-color: #DC0A2D;
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+  background-color: #DC0A2D;
+  margin: 0;
 }
 
 .container {
-    width: 100%;
-    min-height: 100vh; /* Altura mínima para ocupar toda la pantalla */
-    background: #DC0A2D;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px; /* Añade padding para asegurar márgenes uniformes */
-    box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  background: #DC0A2D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  box-sizing: border-box;
 }
 
 .header {
-    width: 100%;
-    max-width: 1200px;
-    height: 108px;
-    padding: 12px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  width: 100%;
+  max-width: 1200px;
+  height: 108px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-sizing: border-box;
 }
 
 .header-title {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .header-title img {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .header-title h1 {
-    color: white;
-    font-size: 24px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    line-height: 32px;
-    margin: 0;
+  color: white;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 0;
 }
 
 .search-bar {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .search-bar input {
-    flex: 0.98;
-    height: 32px;
-    padding: 8px 16px;
-    background: white;
-    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.25) inset;
-    border-radius: 16px;
-    border: none;
-    font-size: 12px;
-    font-family: Poppins, sans-serif;
-    color: #666666;
+  flex: 0.98;
+  height: 32px;
+  padding: 8px 16px;
+  background: white;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.25) inset;
+  border-radius: 16px;
+  border: none;
+  font-size: 12px;
+  font-family: Poppins, sans-serif;
+  color: #666666;
 }
 
 .search-bar button {
-    padding: 8px;
-    background: white;
-    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.25) inset;
-    border-radius: 16px;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  padding: 8px;
+  background: white;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.25) inset;
+  border-radius: 16px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .search-bar button img {
-    width: 16px;
-    height: 16px;
+  width: 16px;
+  height: 16px;
 }
 
-.pokedex { 
-    width: 100%;
-    max-width: 1200px; /* Limita el ancho máximo del contenedor para centrarlo mejor */
-    flex: 1;
-    padding: 32px;
-    background: white;
-    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.25) inset;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    box-sizing: border-box; /* Asegura que padding y border se incluyan en el ancho total */
+.pokedex {
+  width: 100%;
+  max-width: 1200px;
+  flex: 1;
+  padding: 24px;
+  background: white;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.25) inset;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  box-sizing: border-box;
 }
 
 .pokemon-list {
-    display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-    justify-content: center; /* Centra las tarjetas dentro del contenedor */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .pokemon-card {
-    position: relative; /* Permitir posicionamiento absoluto de elementos hijos */
-    width: 240px;
-    height: 240px;
-    background: white;
-    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.20);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
-    overflow: hidden; /* Asegura que el contenido no se desborde */
-    
+  width: calc(33.33% - 16px);
+  max-width: 300px; /* Aumenta el ancho máximo de las tarjetas */
+  background: white;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.20);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  overflow: hidden;
 }
 
 .pokemon-id-back {
-    position: absolute;
-    transform: translateY(-60%);
-    top: 1rem;
-    font-size: 7rem;
-    color: oklch(50.59% 0.138 0 / 10%);
-   
-    align-content: center;
-    z-index: 2;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    
+  position: absolute;
+  transform: translateY(-60%);
+  top: 1rem;
+  font-size: 7rem;
+  color: oklch(50.59% 0.138 0 / 10%);
+  align-content: center;
+  z-index: 2;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 
 .pokemon-card .pokemon-id {
-    text-align: right;
-    color: #666666;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    
+  text-align: right;
+  color: #666666;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .pokemon-card .pokemon-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2; /* Asegura que la imagen esté sobre el fondo gris */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
 }
 
 .pokemon-card .pokemon-img img {
-    width: 96px;
-    height: 96px;
+  width: 100%;
+  height: auto;
+  max-width: 200px; /* Aumenta el ancho máximo de las imágenes */
+  max-height: 200px; /* Aumenta la altura máxima de las imágenes */
 }
 
 .pokemon-card .pokemon-name {
-z-index: 3;
+  z-index: 3;
 }
 
 .pokemon-card .pokemon-name-bg {
-    position: absolute; /* Posicionamiento absoluto para ocupar el fondo gris */
-    bottom: 0; /* Posicionar en la parte inferior de la tarjeta */
-    width: 100%; /* Ocupa todo el ancho de la tarjeta */
-    height: 50%; /* Ocupa la mitad inferior de la tarjeta */
-    background: #EFEFEF; /* Fondo gris */
-    border-radius: 0 0 7px 7px; /* Ajustar el radio de borde inferior */
-    z-index: 1; /* Asegura que esté detrás de la imagen pero delante del fondo blanco */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  background: #EFEFEF;
+  border-radius: 0 0 7px 7px;
+  z-index: 1;
 }
 
-/* Media Queries para dispositivos móviles */
+/* Media Query para dispositivos móviles */
 @media (max-width: 768px) {
   .pokemon-card {
-      width: 30%; /* Ajusta el ancho de las tarjetas para que quepan 3 por fila */
-      height: auto; /* Permite que la altura se ajuste automáticamente */
-  }
-  .pokemon-card .pokemon-img img {
-      width: 80px; /* Ajusta el tamaño de la imagen para dispositivos móviles */
-      height: 80px; /* Ajusta el tamaño de la imagen para dispositivos móviles */
+      width: calc(50% - 12px); /* Ajusta el ancho para 2 tarjetas por fila */
   }
 }
