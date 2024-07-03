@@ -84,13 +84,13 @@ body {
   box-sizing: border-box;
   margin-bottom: 24px; /* Añade margen inferior */
   
-  
 }
 
 .header-title {
   display: flex;
   align-items: center;
   gap: 16px;
+  margin-left: 24px;
   
 }
 
