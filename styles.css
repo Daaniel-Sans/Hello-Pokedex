@@ -71,17 +71,19 @@ body {
   align-items: center;
   padding: 16px; /* Añade padding para asegurar márgenes uniformes */
   box-sizing: border-box;
+  
 }
 
 .header {
   width: 100%;
-  max-width: 1200px; /* Limita el ancho máximo de la cabecera */
+  max-width: 1264px; /* Limita el ancho máximo de la cabecera */
   height: 108px;
   padding: 16px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   box-sizing: border-box;
-  gap: 716px;
+  margin-bottom: 24px; /* Añade margen inferior */
+  
   
 }
 
@@ -89,6 +91,7 @@ body {
   display: flex;
   align-items: center;
   gap: 16px;
+  
 }
 
 .header-title img {
@@ -145,7 +148,7 @@ body {
   width: 100%;
   max-width: 1200px; /* Limita el ancho máximo del contenedor para centrarlo mejor */
   flex: 1;
-  padding: 32px; /* Aumenta el padding para un margen más equilibrado */
+  padding: 40px; /* Aumenta el padding para un margen más equilibrado */
   background: white;
   box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.25) inset;
   border-radius: 8px;
@@ -153,6 +156,7 @@ body {
   flex-direction: column;
   gap: 32px; /* Ajusta el gap para mejor separación entre elementos */
   box-sizing: border-box; /* Asegura que padding y border se incluyan en el ancho total */
+   margin-top: 24px; /* Añade margen superior */
 }
 
 .pokemon-list {
