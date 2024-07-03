@@ -80,7 +80,6 @@ body {
   padding: 12px;
   display: flex;
   flex-direction: column;
-
   box-sizing: border-box;
 }
 
@@ -149,15 +148,16 @@ body {
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  gap: 24px; /* Ajusta el gap para mejor separación entre elementos */
+  gap: 32px; /* Ajusta el gap para mejor separación entre elementos */
   box-sizing: border-box; /* Asegura que padding y border se incluyan en el ancho total */
 }
 
 .pokemon-list {
   display: flex;
-  gap: 24px;
+  gap: 32px;
   flex-wrap: wrap;
-  justify-content: center; /* Centra las tarjetas dentro del contenedor */
+  justify-content: left; /* Centra las tarjetas dentro del contenedor */
+  align-content: center;
 }
 
 .pokemon-card {
