@@ -69,7 +69,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; /* Centra el contenedor horizontalmente */
-  padding: 24px; /* Añade padding para asegurar márgenes uniformes */
+  padding: 16px; /* Añade padding para asegurar márgenes uniformes */
   box-sizing: border-box;
 }
 
@@ -80,7 +80,7 @@ body {
   padding: 12px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+
   box-sizing: border-box;
 }
 
