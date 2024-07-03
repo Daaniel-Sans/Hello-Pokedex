@@ -226,3 +226,15 @@ z-index: 3;
     border-radius: 0 0 7px 7px; /* Ajustar el radio de borde inferior */
     z-index: 1; /* Asegura que esté detrás de la imagen pero delante del fondo blanco */
 }
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+  .pokemon-card {
+      width: 30%; /* Ajusta el ancho de las tarjetas para que quepan 3 por fila */
+      height: auto; /* Permite que la altura se ajuste automáticamente */
+  }
+  .pokemon-card .pokemon-img img {
+      width: 80px; /* Ajusta el tamaño de la imagen para dispositivos móviles */
+      height: 80px; /* Ajusta el tamaño de la imagen para dispositivos móviles */
+  }
+}
