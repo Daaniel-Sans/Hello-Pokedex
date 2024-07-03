@@ -71,11 +71,14 @@ body{
     background: #DC0A2D;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    padding: 24px; /* Añade padding para asegurar márgenes uniformes */
+    box-sizing: border-box;
 }
 
 .header {
     width: 100%;
+    max-width: 1200px;
     height: 108px;
     padding: 12px;
     display: flex;
@@ -140,27 +143,29 @@ body{
 
 .pokedex { 
     width: 100%;
+    max-width: 1200px; /* Limita el ancho máximo del contenedor para centrarlo mejor */
     flex: 1;
-    padding: 24px 24px;
+    padding: 32px;
     background: white;
     box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.25) inset;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 24px;
     box-sizing: border-box; /* Asegura que padding y border se incluyan en el ancho total */
 }
 
 .pokemon-list {
     display: flex;
-    gap: 12px;
+    gap: 24px;
     flex-wrap: wrap;
+    justify-content: center; /* Centra las tarjetas dentro del contenedor */
 }
 
 .pokemon-card {
     position: relative; /* Permitir posicionamiento absoluto de elementos hijos */
-    width: 208px;
-    height: 208px;
+    width: 240px;
+    height: 240px;
     background: white;
     box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.20);
     border-radius: 8px;
@@ -168,7 +173,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 4px 8px;
+    padding: 8px;
     overflow: hidden; /* Asegura que el contenido no se desborde */
     
 }
@@ -204,8 +209,8 @@ body{
 }
 
 .pokemon-card .pokemon-img img {
-    width: 80px;
-    height: 80px;
+    width: 96px;
+    height: 96px;
 }
 
 .pokemon-card .pokemon-name {
